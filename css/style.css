@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.menu {
+    width: 30%;
+    height: 80vh;background-color: rgb(36, 68, 209);
+}
+
+.contenedor {
+    width: 70%;
+    height: 80vh;
+    background-color: brown;
+}
+
+.reproductor {
+    width: 100%;
+    height: 20vh;
+    background-color: rebeccapurple;
+}
+
+.buscador {
+    width: 100%;
+    height: 20%;
+    background-color: aquamarine;
+}
+
+.contenido {
+    width: 100%;
+    height: 80%;
+    background-color: blueviolet;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: scroll;
+}
